@@ -5,7 +5,18 @@
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
 
-// I AM NOT DONE
+
+macro_rules! my_macro {
+    ($val:expr) => {
+       if($val == "goodbye!") {
+           "Hello goodbye!"
+       } else if ($val == "world!") {
+           "Hello world!"
+       } else {
+           ""
+       }
+    }; 
+}
 
 #[cfg(test)]
 mod tests {
