@@ -7,7 +7,7 @@
 // Execute `rustlings hint errors1` for hints!
 
 // I AM NOT DONE
-
+//test comment
 pub fn generate_nametag_text(name: String) -> Option<String> {
     if name.len() > 0 {
         Some(format!("Hi! My name is {}", name))
